@@ -1,0 +1,26 @@
+{
+  "name": "netcore/galerts",
+  "type": "package",
+  "description": "Google Alerts management",
+  "keywords": ["netcore","google","galerts","googlealerts"],
+  "homepage": "http://netcore.lv",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Viktors Ņikiforovs",
+          "email": "viktors.nikiforovs@netcore.lv",
+          "role" : "Developer"
+      }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+      "php": ">=5.4.0",
+      "laravel/framework": "5.*",
+      "guzzlehttp/guzzle": "^6.2"
+  },
+  "autoload" : {
+      "psr-4" : {
+          "Netcore\\GAlerts\\": "src/"
+      }
+  }
+}
