@@ -17,7 +17,7 @@
 
 At the top of your controller/service put the following
 ```php
-    use Netcore\GAlers\GAlert;
+    use Netcore\GAlerts\GAlert;
 ```
 
 - Fetch all existing alerts
