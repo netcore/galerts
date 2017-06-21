@@ -32,7 +32,7 @@ At the top of your controller/service put the following
 
 - Find alert by data id
 ```php
-    GAlert::findByKeyowrd('My alert');
+    GAlert::findByKeyword('My alert');
 ```
 
 - Create an alert
@@ -49,7 +49,7 @@ At the top of your controller/service put the following
 
 - Update an existing alert
 ```php
-    $alert = GAlert::findByKeyowrd('My alert');
+    $alert = GAlert::findByKeyword('My alert');
    
     $updated = $alert
         ->keyword('My new alert')
