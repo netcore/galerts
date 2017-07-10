@@ -320,7 +320,7 @@ class Manager extends ManagerBase
 
         $data = collect();
 
-        foreach (array_get($xml, 'entry') as $item) {
+        foreach (array_get($xml, 'entry', []) as $item) {
             $data->push([
                 'id' => array_get($item, 'id'),
                 'title' => array_get($item, 'title'),
